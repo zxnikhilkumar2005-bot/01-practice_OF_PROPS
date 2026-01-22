@@ -5,18 +5,18 @@
 
 body {
   margin: 0;
-  background: #0b0b0b;
+  background: #2E6BFF;
   padding: 40px;
 }
 
-/* DESKTOP GRID */
+
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 30px;
 }
 
-/* CARD */
+
 .nft-card {
   background: #0e1117;
   border-radius: 26px;
@@ -25,7 +25,7 @@ body {
   box-shadow: 0 20px 40px rgba(0,0,0,0.5);
 }
 
-/* IMAGE */
+
 .image-section {
   position: relative;
   background: #2f6de6;
@@ -36,7 +36,7 @@ body {
   display: block;
 }
 
-/* TAGS */
+
 .rarity {
   position: absolute;
   top: 14px;
@@ -73,7 +73,7 @@ body {
   font-weight: 700;
 }
 
-/* CONTENT */
+
 .content {
   padding: 20px;
 }
@@ -98,7 +98,7 @@ body {
   place-items: center;
 }
 
-/* STATS */
+
 .stats {
   margin-top: 18px;
   background: #171b24;
